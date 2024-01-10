@@ -1,14 +1,18 @@
 # JavaScript30 Challenge
 
+## Portfolio
+
+Check out my portfolio for all projects and information: [My Portfolio](https://dk-bhullar.github.io/JavaScript30/)
+
 ## Overview
 
 Welcome to the JavaScript30 Challenge! In this 30-day journey, you'll be creating 30 projects using Wes Bos's JavaScript30 course. Each day, you'll dive into a new project, honing your JavaScript skills and gaining hands-on experience with real-world applications.
 
 ### Day 1: Drum Kit
 
-- **Project:** [Drum Kit](./DrumKit)
+- **Project:** [Drum Kit](./01.%20DrumKit/)
 - **Description:** Create a drum kit that plays sounds when keys are pressed.
-- **Demo:** [Live Demo]()
+- **Demo:** [Live Demo](https://dk-bhullar.github.io/JavaScript30/01.%20DrumKit/)
 
 ## Portfolio
 
