@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Analog Clock</title>
+  </head>
+  <body>
+    <div id="clock-face">
+      <div id="hour"></div>
+      <div id="minute"></div>
+      <div id="second"></div>
+    </div>
+    <script>
+      setInterval(() => {
+        d = new Date();
+        hours = d.getHours();
+        minutes = d.getMinutes();
+        seconds = d.getSeconds();
+        hourDeg = 30 * hours + minutes / 2;
+        minDeg = minutes * 6;
+        secDeg = 6 * seconds;
+
+        hour.style.transform = `rotate(${hourDeg}deg)`;
+        minute.style.transform = `rotate(${minDeg}deg)`;
+        second.style.transform = `rotate(${secDeg}deg)`;
+      }, 1000);
+    </script>
+  </body>
+</html>
