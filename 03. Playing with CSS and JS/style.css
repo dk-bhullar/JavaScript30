@@ -4,6 +4,12 @@
   --blur: 0px;
 }
 body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("./paws.png");
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,6 +28,7 @@ img {
   padding: var(--spacing);
   background: var(--color);
   filter: blur(var(--blur));
+  border-radius: 25%;
 }
 .container {
   display: flex;
