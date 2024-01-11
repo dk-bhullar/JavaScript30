@@ -20,7 +20,7 @@ Welcome to the JavaScript30 Challenge! In this 30-day journey, you'll be creatin
 - **Description:** Create a drum kit that plays sounds when keys are pressed.
 - **Demo:** [Live Demo](https://dk-bhullar.github.io/JavaScript30/02.%20CSS+JS%20Clock%20/)
 
-### Day 3: CSS + JS Clock
+### Day 3: Playing with CSS and JS
 
 - **Project:** [Playing with CSS and JS](./03.%20Playing%20with%20CSS%20and%20JS/)
 - **Description:** Create a drum kit that plays sounds when keys are pressed.
