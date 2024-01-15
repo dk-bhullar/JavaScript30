@@ -32,6 +32,12 @@ Welcome to the JavaScript30 Challenge! In this 30-day journey, you'll be creatin
 - **Description:** Create a drum kit that plays sounds when keys are pressed.
 - **Demo:** [Live Demo](https://dk-bhullar.github.io/JavaScript30/04.%20Cardio%20with%20Array/)
 
+### Day 5: Flex Panels
+
+- **Project:** [Cardio with Array](./05.%20Flex%20Panels/)
+- **Description:** Create a drum kit that plays sounds when keys are pressed.
+- **Demo:** [Live Demo](https://dk-bhullar.github.io/JavaScript30/05.%20Flex%20Panels/)
+
 ## Acknowledgments
 
 - [Wes Bos](https://wesbos.com/) for creating the JavaScript30 course.
