@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  box-sizing: border-box;
+  background: #e0eff5;
+  font-family: "helvetica neue";
+  font-size: 40px;
+  font-weight: 800;
+}
+body {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.panels {
+  display: flex;
+  width: 95vw;
+  justify-content: center;
+  align-items: center;
+}
+.panel {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  cursor: pointer;
+  transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+    flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s;
+}
+.panel p {
+  color: #ffffff;
+  text-align: center;
+  height: 30vh;
+  text-transform: uppercase;
+
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+}
+.panel > *:first-child {
+  transform: translateY(-100%);
+}
+.panel > *:last-child {
+  transform: translateY(100%);
+}
+.panel.open-active > *:first-child {
+  transform: translateY(0);
+  transition: transform 0.5s;
+}
+.panel.open-active > *:last-child {
+  transform: translateY(0);
+  transition: transform 0.5s;
+}
+.panel.open {
+  flex: 5;
+  font-size: 40px;
+}
+.panel1 {
+  background-image: url("./calmness.png");
+}
+.panel2 {
+  background-image: url("./mountain.png");
+}
+.panel3 {
+  background-image: url("./calm.png");
+}
+.panel4 {
+  background-image: url("./flower.png");
+}
+.panel5 {
+  background-image: url("./calmness.png");
+}
