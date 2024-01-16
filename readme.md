@@ -17,32 +17,40 @@ Welcome to the JavaScript30 Challenge! In this 30-day journey, you'll be creatin
 ### Day 2: CSS + JS Clock
 
 - **Project:** [CSS + JS Clock](./02.%20CSS+JS%20Clock%20/)
-- **Description:** Create a drum kit that plays sounds when keys are pressed.
+- **Description:** It's an Analog clock.
 - **Demo:** [Live Demo](https://dk-bhullar.github.io/JavaScript30/02.%20CSS+JS%20Clock%20/)
 
 ### Day 3: Playing with CSS and JS
 
 - **Project:** [Playing with CSS and JS](./03.%20Playing%20with%20CSS%20and%20JS/)
-- **Description:** Create a drum kit that plays sounds when keys are pressed.
+- **Description:**
+  **CSS Magic:** Unleashing the power of CSS to bring designs to life.
+  **JS Interactivity:** Adding that extra flair with JavaScript to make the page come alive.
 - **Demo:** [Live Demo](https://dk-bhullar.github.io/JavaScript30/03.%20Playing%20with%20CSS%20and%20JS/)
 
 ### Day 4: Cardio with Array
 
 - **Project:** [Cardio with Array](./04.%20Cardio%20with%20Array/)
-- **Description:** Create a drum kit that plays sounds when keys are pressed.
+- **Description:** It's all about mastering array methods. From `map` to `filter` and beyond.
 - **Demo:** [Live Demo](https://dk-bhullar.github.io/JavaScript30/04.%20Cardio%20with%20Array/)
 
 ### Day 5: Flex Panels
 
-- **Project:** [Cardio with Array](./05.%20Flex%20Panels/)
-- **Description:** Create a drum kit that plays sounds when keys are pressed.
+- **Project:** [Flex Panels](./05.%20Flex%20Panels/)
+- **Description:** Displaying the the use of transition and flex boxes
 - **Demo:** [Live Demo](https://dk-bhullar.github.io/JavaScript30/05.%20Flex%20Panels/)
 
 ### Day 6: AJAX Type Ahead
 
-- **Project:** [Cardio with Array](./06.%20Ajax%20Type%20Ahead/)
-- **Description:** Create a drum kit that plays sounds when keys are pressed.
-- **Demo:** [Live Demo](https://dk-bhullar.github.io/JavaScript30/./06.%20Ajax%20Type%20Ahead/)
+- **Project:** [AJAX Type Ahead](./06.%20Ajax%20Type%20Ahead/)
+- **Description:** This contains a search bar which searches cities and states names simultaneously as user types in search bar.
+- **Demo:** [Live Demo](https://dk-bhullar.github.io/JavaScript30/06.%20Ajax%20Type%20Ahead/)
+
+### Day 7: Array Cardio 2
+
+- **Project:** [Array Cardio 2](./07.%20Array%20Cardio%202/)
+- **Description:** Another amazing exercise to explore the Array methods.
+- **Demo:** [Live Demo](https://dk-bhullar.github.io/JavaScript30/07.%20Array%20Cardio%202/)
 
 ## Acknowledgments
 
