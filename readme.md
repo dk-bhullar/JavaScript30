@@ -38,6 +38,12 @@ Welcome to the JavaScript30 Challenge! In this 30-day journey, you'll be creatin
 - **Description:** Create a drum kit that plays sounds when keys are pressed.
 - **Demo:** [Live Demo](https://dk-bhullar.github.io/JavaScript30/05.%20Flex%20Panels/)
 
+### Day 6: AJAX Type Ahead
+
+- **Project:** [Cardio with Array](./06.%20Ajax%20Type%20Ahead/)
+- **Description:** Create a drum kit that plays sounds when keys are pressed.
+- **Demo:** [Live Demo](https://dk-bhullar.github.io/JavaScript30/./06.%20Ajax%20Type%20Ahead/)
+
 ## Acknowledgments
 
 - [Wes Bos](https://wesbos.com/) for creating the JavaScript30 course.
