@@ -1,231 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daman's Portfolio</title>
-    <style>
-      body {
-        text-align: center;
-      }
-      a {
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-
-      header {
-        padding: 20px;
-      }
-
-      h1 {
-        color: rgb(0, 121, 122);
-        font-weight: bold;
-      }
-      h4 {
-        font-weight: lighter;
-      }
-      main {
-        display: flex;
-        padding: 50px 20px;
-      }
-
-      .card {
-        -webkit-transition: all 0.2s ease-in;
-        -moz-transition: all 0.2s ease-in;
-        -ms-transition: all 0.2s ease-in;
-        -o-transition: all 0.2s ease-in;
-        border-radius: 5px;
-        box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
-        transition: all 0.2s ease-in;
-      }
-
-      .card:hover {
-        -webkit-transition: all 0.2s ease-in;
-        -moz-transition: all 0.2s ease-in;
-        -ms-transition: all 0.2s ease-in;
-        -o-transition: all 0.2s ease-in;
-        box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
-        transition: all 0.2s ease-in;
-      }
-
-      .card .image-box {
-        border-radius: 5px;
-        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
-        overflow: hidden;
-      }
-
-      .card .image-box img {
-        -webkit-transition: all 0.9s ease;
-        -moz-transition: all 0.9s ease;
-        -o-transition: all 0.9s ease;
-        -ms-transition: all 0.9s ease;
-      }
-
-      .card:hover .image-box img {
-        -webkit-transform: scale(1.2);
-        -moz-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        -o-transform: scale(1.2);
-        transform: scale(1.2);
-      }
-
-      .card-body {
-        border-radius: 5px;
-        color: var(--primary-color);
-        padding: 20px;
-      }
-
-      footer {
-        align-self: end;
-        font-size: 10px;
-        padding: 10px;
-        position: relative;
-        width: 100%;
-      }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <header>
-      <h1>Women Who Code's 100 Days of Code Challenge 2024</h1>
-      <h2>Vanilla JavaScript Challenge for 30 Days</h2>
-      <h4>Here one unquie project is created using JavaScript everyday!</h4>
-    </header>
-
-    <main>
-      <div id="project-container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <a href="./01. DrumKit/" target="_blank">
-              <div class="card h-100 mb-3">
-                <div class="image-box">
-                  <img
-                    src="./projects/day1.png"
-                    class="card-img-top"
-                    alt="JavaScript Drum Kit"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title">JS DrumKit</h3>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a href="./02. CSS+JS Clock /" target="_blank">
-              <div class="card h-100 mb-3">
-                <div class="image-box">
-                  <img
-                    src="./projects/day2.png"
-                    class="card-img-top"
-                    alt="CSS+JS Clock"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title">CSS+JS Clock</h3>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a href="./03. Playing with CSS and JS/" target="_blank">
-              <div class="card h-100 mb-3">
-                <div class="image-box">
-                  <img
-                    src="./projects/day3.png"
-                    class="card-img-top"
-                    alt="Playing with CSS and JS"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title">Playing with CSS and JS</h3>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a href="./04. Cardio with Array/" target="_blank">
-              <div class="card h-100 mb-3">
-                <div class="image-box">
-                  <img
-                    src="./projects/day4.png"
-                    class="card-img-top"
-                    alt="Cardio with Array"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title">Cardio with Array</h3>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a href="./05. Flex Panels/" target="_blank">
-              <div class="card h-100 mb-3">
-                <div class="image-box">
-                  <img
-                    src="./projects/day5.png"
-                    class="card-img-top"
-                    alt="Flex Panels"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title">Flex Panels</h3>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a href="./06. Ajax Type Ahead/" target="_blank">
-              <div class="card h-100 mb-3">
-                <div class="image-box">
-                  <img
-                    src="./projects/day6.png"
-                    class="card-img-top"
-                    alt="Ajax Type Ahead"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title">Ajax Type Ahead</h3>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a href="./07. Array Cardio 2/" target="_blank">
-              <div class="card h-100 mb-3">
-                <div class="image-box">
-                  <img
-                    src="./projects/day7.png"
-                    class="card-img-top"
-                    alt="Array Cardio 2"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title">Array Cardio 2</h3>
-                </div>
-              </div>
-            </a>
-          </div>
+    <div id="main">
+      <div id="loader">
+        <div id="topheading">
+          <h5 class="reveal">Designed By:</h5>
+          <h5 class="reveal">Daman Bhullar</h5>
+        </div>
+        <h1 class="reveal">
+          Welcome to 100 days of
+          <span style="color: rgb(0, 121, 122)">coding challenge</span>
+          with
+        </h1>
+        <div id="heading" class="reveal">
+          <svg
+            id="logo"
+            viewBox="0 0 590 50"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M578.552 46.6C580.486 46.6 582.186 46.2667 583.652 45.6C585.119 44.8667 586.552 43.6667 587.952 42L589.152 42.9C587.619 45.1 585.652 46.8333 583.252 48.1C580.919 49.3 578.352 49.9 575.552 49.9C572.486 49.9 569.719 49.1667 567.252 47.7C564.852 46.2333 562.952 44.2333 561.552 41.7C560.152 39.1 559.452 36.1667 559.452 32.9C559.452 27.7 561.019 23.5667 564.152 20.5C567.352 17.3667 571.586 15.8 576.852 15.8C580.586 15.8 583.619 16.7 585.952 18.5C588.352 20.2333 589.552 22.5 589.552 25.3C589.552 28.5 588.186 31.0667 585.452 33C582.786 34.8667 579.119 35.8 574.452 35.8C572.586 35.8 570.886 35.6667 569.352 35.4C569.686 38.8667 570.686 41.6 572.352 43.6C574.019 45.6 576.086 46.6 578.552 46.6ZM575.752 18.2C573.686 18.2 572.052 19.4667 570.852 22C569.719 24.4667 569.152 27.9333 569.152 32.4V34C569.886 34 570.786 33.9333 571.852 33.8C574.652 33.4667 576.786 32.5667 578.252 31.1C579.786 29.5667 580.552 27.5667 580.552 25.1C580.552 23.1 580.086 21.4667 579.152 20.2C578.286 18.8667 577.152 18.2 575.752 18.2Z"
+            />
+            <path
+              d="M556.832 45.8C554.365 48.5333 551.465 49.9 548.132 49.9C546.065 49.9 544.532 49.4667 543.532 48.6C542.532 47.6667 541.865 46.1667 541.532 44.1C539.799 46.1 537.999 47.5667 536.132 48.5C534.265 49.4333 532.199 49.9 529.932 49.9C526.599 49.9 523.865 48.4333 521.732 45.5C519.665 42.5667 518.632 38.7667 518.632 34.1C518.632 28.5 520.099 24.0667 523.032 20.8C525.965 17.4667 529.965 15.8 535.032 15.8C537.365 15.8 539.499 16.3333 541.432 17.4V6.3C541.432 5.36667 540.999 4.9 540.132 4.9H536.732L536.332 3.9C537.665 2.7 539.365 1.76667 541.432 1.1C543.499 0.366666 545.532 0 547.532 0C548.399 0 549.099 0.2 549.632 0.599998C550.165 0.933331 550.432 1.43333 550.432 2.1V43.3C550.432 45.3 551.065 46.3 552.332 46.3C553.599 46.3 554.832 45.8 556.032 44.8L556.832 45.8ZM535.132 45.1C537.665 45.1 539.765 43.7 541.432 40.9V19.4C540.099 18.7333 538.632 18.4 537.032 18.4C531.432 18.4 528.632 23.2333 528.632 32.9C528.632 36.8333 529.165 39.8667 530.232 42C531.365 44.0667 532.999 45.1 535.132 45.1Z"
+            />
+            <path
+              d="M480.155 32.9C480.155 27.6333 481.655 23.4667 484.655 20.4C487.722 17.3333 491.855 15.8 497.055 15.8C502.255 15.8 506.389 17.3667 509.455 20.5C512.522 23.5667 514.055 27.7 514.055 32.9C514.055 38.1 512.522 42.2333 509.455 45.3C506.389 48.3667 502.255 49.9 497.055 49.9C491.855 49.9 487.722 48.3667 484.655 45.3C481.655 42.2333 480.155 38.1 480.155 32.9ZM503.955 33.1C503.955 28.6333 503.322 25 502.055 22.2C500.789 19.3333 499.189 17.9 497.255 17.9C495.122 17.9 493.389 19.3 492.055 22.1C490.722 24.8333 490.055 28.4333 490.055 32.9C490.055 37.4333 490.655 41.0333 491.855 43.7C493.122 46.3667 494.789 47.7 496.855 47.7C498.922 47.7 500.622 46.3667 501.955 43.7C503.289 40.9667 503.955 37.4333 503.955 33.1Z"
+            />
+            <path
+              d="M460.452 49.9C453.318 49.9 447.852 47.6333 444.052 43.1C440.318 38.5667 438.452 32.7667 438.452 25.7C438.452 18.6333 440.352 12.8333 444.152 8.29999C447.952 3.69999 453.452 1.39999 460.652 1.39999C465.252 1.39999 468.985 2.29999 471.852 4.09999C474.785 5.83333 476.252 8.13333 476.252 11C476.252 13.8 475.085 16 472.752 17.6C470.418 19.2 467.485 20 463.952 20C465.952 17.8667 466.952 14.9667 466.952 11.3C466.952 9.16666 466.285 7.39999 464.952 5.99999C463.685 4.53333 462.018 3.79999 459.952 3.79999C456.152 3.79999 453.352 5.96666 451.552 10.3C449.818 14.6333 448.952 19.7667 448.952 25.7C448.952 29.5 449.485 32.9667 450.552 36.1C451.685 39.2333 453.285 41.7333 455.352 43.6C457.485 45.4 459.918 46.3 462.652 46.3C465.785 46.3 468.385 45.6667 470.452 44.4C472.585 43.0667 474.518 41.2333 476.252 38.9L477.452 39.8C475.652 42.8 473.318 45.2333 470.452 47.1C467.652 48.9667 464.318 49.9 460.452 49.9Z"
+            />
+            <path
+              d="M383.378 32.9C383.378 27.6333 384.878 23.4667 387.878 20.4C390.945 17.3333 395.078 15.8 400.278 15.8C405.478 15.8 409.611 17.3667 412.678 20.5C415.745 23.5667 417.278 27.7 417.278 32.9C417.278 38.1 415.745 42.2333 412.678 45.3C409.611 48.3667 405.478 49.9 400.278 49.9C395.078 49.9 390.945 48.3667 387.878 45.3C384.878 42.2333 383.378 38.1 383.378 32.9ZM407.178 33.1C407.178 28.6333 406.545 25 405.278 22.2C404.011 19.3333 402.411 17.9 400.478 17.9C398.345 17.9 396.611 19.3 395.278 22.1C393.945 24.8333 393.278 28.4333 393.278 32.9C393.278 37.4333 393.878 41.0333 395.078 43.7C396.345 46.3667 398.011 47.7 400.078 47.7C402.145 47.7 403.845 46.3667 405.178 43.7C406.511 40.9667 407.178 37.4333 407.178 33.1Z"
+            />
+            <path
+              d="M374.021 43.3C374.021 45.3 374.654 46.3 375.921 46.3C377.188 46.3 378.421 45.8 379.621 44.8L380.421 45.8C377.954 48.5333 375.054 49.9 371.721 49.9C369.321 49.9 367.588 49.3 366.521 48.1C365.521 46.8333 365.021 44.8 365.021 42V26.7C365.021 22.8333 363.788 20.9 361.321 20.9C358.921 20.9 356.988 22.5333 355.521 25.8C354.054 29.0667 353.321 33.3333 353.321 38.6C353.321 40.6667 353.454 42.3333 353.721 43.6C354.054 44.8 354.588 45.9333 355.321 47L356.121 48L355.321 49H340.821L340.221 47.3L341.621 47C342.688 46.7333 343.388 46.3333 343.721 45.8C344.054 45.2 344.221 44.0667 344.221 42.4V6.7C344.221 6.16667 344.088 5.73333 343.821 5.4C343.621 5.06667 343.321 4.9 342.921 4.9H339.821L339.421 3.9C340.688 2.7 342.321 1.76667 344.321 1.1C346.388 0.366666 348.421 0 350.421 0C351.288 0 351.988 0.2 352.521 0.599998C353.054 0.933331 353.321 1.43333 353.321 2.1V26.8C354.254 23.6667 355.888 21.0667 358.221 19C360.621 16.8667 363.154 15.8 365.821 15.8C368.688 15.8 370.754 16.7333 372.021 18.6C373.354 20.4667 374.021 23.4333 374.021 27.5V43.3Z"
+            />
+            <path
+              d="M338.104 3.4C336.437 4.66667 335.204 5.86667 334.404 7C333.604 8.06667 332.871 9.5 332.204 11.3L319.604 49H311.004L302.504 20.9L294.104 49H285.404L272.604 11.3C271.937 9.43333 271.204 8 270.404 7C269.671 5.93334 268.471 4.73333 266.804 3.4L267.604 2.3H285.804L286.404 4.1L285.004 4.5C284.004 4.83333 283.271 5.26667 282.804 5.8C282.404 6.26667 282.204 6.93334 282.204 7.8C282.204 8.46667 282.437 9.53334 282.904 11L292.904 40.8L300.604 14.8L299.504 11.3C298.837 9.43333 298.104 8 297.304 7C296.571 5.93334 295.371 4.73333 293.704 3.4L294.504 2.3H312.704L313.404 4.1L311.904 4.5C310.837 4.76667 310.104 5.16667 309.704 5.7C309.304 6.16667 309.104 6.86667 309.104 7.8C309.104 8.46667 309.337 9.53334 309.804 11L318.604 40.9L328.504 11.2C328.971 9.73334 329.204 8.63334 329.204 7.9C329.204 7.1 328.971 6.46667 328.504 6C328.104 5.46667 327.404 5.06667 326.404 4.8L324.604 4.1L325.204 2.3H337.304L338.104 3.4Z"
+            />
+            <path
+              d="M243.666 43.3C243.666 45.3 244.3 46.3 245.566 46.3C246.833 46.3 248.066 45.8 249.266 44.8L250.066 45.8C247.6 48.5333 244.7 49.9 241.366 49.9C238.966 49.9 237.233 49.3 236.166 48.1C235.166 46.8333 234.666 44.8 234.666 42V26.7C234.666 22.8333 233.433 20.9 230.966 20.9C228.566 20.9 226.6 22.5333 225.066 25.8C223.6 29.0667 222.866 33.3333 222.866 38.6C222.866 40.6 223.033 42.2333 223.366 43.5C223.7 44.7 224.233 45.8667 224.966 47L225.766 48L224.966 49H210.466L209.866 47.3L211.266 47C212.333 46.7333 213.033 46.3333 213.366 45.8C213.7 45.2 213.866 44.0667 213.866 42.4V22.9C213.866 21.6333 213.433 21 212.566 21H209.366L209.066 19.9C210.4 18.7667 212.066 17.8333 214.066 17.1C216.066 16.3667 218.066 16 220.066 16C220.933 16 221.6 16.2 222.066 16.6C222.6 17 222.866 17.5333 222.866 18.2V26.8C223.8 23.6667 225.466 21.0667 227.866 19C230.266 16.8667 232.8 15.8 235.466 15.8C238.333 15.8 240.4 16.7333 241.666 18.6C243 20.4667 243.666 23.4333 243.666 27.5V43.3Z"
+            />
+            <path
+              d="M193.494 46.6C195.427 46.6 197.127 46.2667 198.594 45.6C200.06 44.8667 201.494 43.6667 202.894 42L204.094 42.9C202.56 45.1 200.594 46.8333 198.194 48.1C195.86 49.3 193.294 49.9 190.494 49.9C187.427 49.9 184.66 49.1667 182.194 47.7C179.794 46.2333 177.894 44.2333 176.494 41.7C175.094 39.1 174.394 36.1667 174.394 32.9C174.394 27.7 175.96 23.5667 179.094 20.5C182.294 17.3667 186.527 15.8 191.794 15.8C195.527 15.8 198.56 16.7 200.894 18.5C203.294 20.2333 204.494 22.5 204.494 25.3C204.494 28.5 203.127 31.0667 200.394 33C197.727 34.8667 194.06 35.8 189.394 35.8C187.527 35.8 185.827 35.6667 184.294 35.4C184.627 38.8667 185.627 41.6 187.294 43.6C188.96 45.6 191.027 46.6 193.494 46.6ZM190.694 18.2C188.627 18.2 186.994 19.4667 185.794 22C184.66 24.4667 184.094 27.9333 184.094 32.4V34C184.827 34 185.727 33.9333 186.794 33.8C189.594 33.4667 191.727 32.5667 193.194 31.1C194.727 29.5667 195.494 27.5667 195.494 25.1C195.494 23.1 195.027 21.4667 194.094 20.2C193.227 18.8667 192.094 18.2 190.694 18.2Z"
+            />
+            <path
+              d="M143.294 18.5C144.56 20.2333 145.227 23 145.294 26.8H145.494C146.427 23.6 147.96 20.9667 150.094 18.9C152.227 16.8333 154.494 15.8 156.894 15.8C159.76 15.8 161.827 16.7667 163.094 18.7C164.427 20.5667 165.094 23.5 165.094 27.5V43.3C165.094 45.3 165.727 46.3 166.994 46.3C168.26 46.3 169.494 45.8 170.694 44.8L171.494 45.8C169.027 48.5333 166.127 49.9 162.794 49.9C160.327 49.9 158.594 49.2667 157.594 48C156.594 46.6667 156.094 44.3667 156.094 41.1V26.7C156.094 22.8333 154.827 20.9 152.294 20.9C150.16 20.9 148.494 22.7 147.294 26.3C146.094 29.8333 145.494 33.9333 145.494 38.6C145.56 40.6667 145.727 42.3 145.994 43.5C146.327 44.7 146.86 45.8667 147.594 47L148.394 48L147.594 49H136.494V26.7C136.494 22.8333 135.227 20.9 132.694 20.9C130.56 20.9 128.894 22.7 127.694 26.3C126.494 29.8333 125.894 33.9333 125.894 38.6C125.894 40.6667 126.027 42.3 126.294 43.5C126.627 44.7 127.194 45.8667 127.994 47L128.794 48L127.994 49H113.494L112.894 47.3L114.294 47C115.36 46.7333 116.06 46.3333 116.394 45.8C116.727 45.2 116.894 44.0667 116.894 42.4V22.9C116.894 21.9 116.46 21.4 115.594 21.4H112.394L112.094 20.4C113.427 19.2667 115.094 18.3333 117.094 17.6C119.094 16.8667 121.094 16.5 123.094 16.5C123.96 16.5 124.627 16.7 125.094 17.1C125.627 17.4333 125.894 17.9333 125.894 18.6V26.8C126.76 23.7333 128.227 21.1333 130.294 19C132.36 16.8667 134.694 15.8 137.294 15.8C140.027 15.8 142.027 16.7 143.294 18.5Z"
+            />
+            <path
+              d="M73.4172 32.9C73.4172 27.6333 74.9172 23.4667 77.9172 20.4C80.9838 17.3333 85.1172 15.8 90.3172 15.8C95.5172 15.8 99.6505 17.3667 102.717 20.5C105.784 23.5667 107.317 27.7 107.317 32.9C107.317 38.1 105.784 42.2333 102.717 45.3C99.6505 48.3667 95.5172 49.9 90.3172 49.9C85.1172 49.9 80.9838 48.3667 77.9172 45.3C74.9172 42.2333 73.4172 38.1 73.4172 32.9ZM97.2172 33.1C97.2172 28.6333 96.5838 25 95.3172 22.2C94.0505 19.3333 92.4505 17.9 90.5172 17.9C88.3838 17.9 86.6505 19.3 85.3172 22.1C83.9838 24.8333 83.3172 28.4333 83.3172 32.9C83.3172 37.4333 83.9172 41.0333 85.1172 43.7C86.3838 46.3667 88.0505 47.7 90.1172 47.7C92.1838 47.7 93.8838 46.3667 95.2172 43.7C96.5505 40.9667 97.2172 37.4333 97.2172 33.1Z"
+            />
+            <path
+              d="M71.6 3.4C69.9333 4.66667 68.7 5.86667 67.9 7C67.1 8.06667 66.3667 9.5 65.7 11.3L53.1 49H44.5L36 20.9L27.6 49H18.9L6.09999 11.3C5.43332 9.43333 4.69999 8 3.89999 7C3.16665 5.93334 1.96665 4.73333 0.299988 3.4L1.09999 2.3H19.3L19.9 4.1L18.5 4.5C17.5 4.83333 16.7667 5.26667 16.3 5.8C15.9 6.26667 15.7 6.93334 15.7 7.8C15.7 8.46667 15.9333 9.53334 16.4 11L26.4 40.8L34.1 14.8L33 11.3C32.3333 9.43333 31.6 8 30.8 7C30.0667 5.93334 28.8667 4.73333 27.2 3.4L28 2.3H46.2L46.9 4.1L45.4 4.5C44.3333 4.76667 43.6 5.16667 43.2 5.7C42.8 6.16667 42.6 6.86667 42.6 7.8C42.6 8.46667 42.8333 9.53334 43.3 11L52.1 40.9L62 11.2C62.4667 9.73334 62.7 8.63334 62.7 7.9C62.7 7.1 62.4667 6.46667 62 6C61.6 5.46667 60.9 5.06667 59.9 4.8L58.1 4.1L58.7 2.3H70.8L71.6 3.4Z"
+            />
+          </svg>
         </div>
       </div>
-    </main>
+      <div id="green" style="height: 0px"></div>
 
-    <footer>
-      Created by Daman Bhullar |
-      <a href="https://github.com/dk-bhullar" target="_blank">GitHub</a> |
-      <a href="https://www.linkedin.com/in/dk-bhullar/" target="_blank"
-        >LinkedIn</a
-      >
-      | <a href="https://github.com/dk-bhullar/JavaScript30">To repository</a>
-    </footer>
+      <!-- carousel -->
+      <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+          <div class="item">
+            <img src="image/day1.png" />
+            <div class="content">
+              <div class="title">DRUM KIT</div>
+              <div class="buttons">
+                <a href="./01. DrumKit/" target="_blank">OPEN IT HERE</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/day2.png" />
+            <div class="content">
+              <div class="title">CSS + JS CLOCK</div>
+              <div class="buttons">
+                <a href="./02. CSS+JS Clock /" target="_blank">OPEN IT HERE</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/day3.png" />
+            <div class="content">
+              <div class="title">PLAYING WITH CSS + JS</div>
+              <div class="buttons">
+                <a href="./03. Playing with CSS and JS/" target="_blank"
+                  >OPEN IT HERE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/day4.png" />
+            <div class="content">
+              <div class="title">CARDIO WITH ARRAY</div>
+              <div class="buttons">
+                <a href="./04. Cardio with Array/" target="_blank"
+                  >OPEN IT HERE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/day5.png" />
+            <div class="content">
+              <div class="title">FLEX PANELS</div>
+              <div class="buttons">
+                <a href="./05. Flex Panels/" target="_blank">OPEN IT HERE</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/day6.png" />
+            <div class="content">
+              <div class="title">AJAX TYPE AHEAD</div>
+              <div class="buttons">
+                <a href="./06. Ajax Type Ahead/" target="_blank"
+                  >OPEN IT HERE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/day7.png" />
+            <div class="content">
+              <div class="title">CARDIO WITH ARRAY 2</div>
+              <div class="buttons">
+                <a href="./07. Array Cardio 2/" target="_blank">OPEN IT HERE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+          <div class="item">
+            <img src="image/day1.png" />
+            <div class="content">
+              <div class="title">DRUM KIT</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/day2.png" />
+            <div class="content">
+              <div class="title">CSS + JS CLOCK</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/day3.png" />
+            <div class="content">
+              <div class="title">PLAYING WITH CSS + JS</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/day4.png" />
+            <div class="content">
+              <div class="title">CARDIO WITH ARRAY</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/day5.png" />
+            <div class="content">
+              <div class="title">FLEX PANELS</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/day6.png" />
+            <div class="content">
+              <div class="title">AJAX TYPE AHEAD</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/day7.png" />
+            <div class="content">
+              <div class="title">CARDIO WITH ARRAY 2</div>
+            </div>
+          </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+          <button id="prev"><</button>
+          <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
